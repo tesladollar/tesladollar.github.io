@@ -1,0 +1,2 @@
+alert("This website isn't responsive!\nPlease maximize your screen.");
+console.log("Welcome to the clone tesla.com! this is a demo project for a resume. All the rights to this website goes to Tesla ltd.")

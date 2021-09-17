@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-fixed {
+    position: fixed;
+}
+
+.logo {
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    color: rgb(230, 2, 2);
+    margin-left: 6rem;
+    font-weight: 550;
+}
+
+#menu {
+    display: inline-block;
+    margin-left: 57rem;
+    margin-top: 5rem;
+}
+
+#menu > a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 1.6rem;
+    color: black;
+    transition: 0.5s;
+}
+
+#menu > a:hover {
+    border: 0.1rem solid whitesmoke;
+    border-radius: 1.6rem;
+    padding: 0.8rem;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0 0 0.8rem 0.2rem aliceblue;
+}
+
+#section-1 {
+    background-color: white;
+    background-image: url(/assets/model-s.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section-2 {
+    background-color: white;
+    background-image: url(/assets/model-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section-3 {
+    background-color: white;
+    background-image: url(/assets/model-x.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section-4 {
+    background-color: white;
+    background-image: url(/assets/model-y.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section-1 > .title {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+#section-2 > .title {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+#section-3 > .title {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+#section-4 > .title {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+#section-1 > .sub {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+#section-2 > .sub {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+#section-3 > .sub {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+#section-4 > .sub {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
